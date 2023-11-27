@@ -85,7 +85,7 @@ h6 {
     background-image: url(./mobile-menu.svg);
     background-repeat: no-repeat;
     right: 24px;
-    top: 42px;
+    top: 22px;
   }
 
   section.home h1 {
@@ -95,7 +95,7 @@ h6 {
     font-size: 27px;
     width: 60%;
     margin: auto;
-    padding-top: 165px;
+    padding-top: 125px;
   }
 
   section.home h1 span {
@@ -181,6 +181,6 @@ h6 {
   }
 
   .show-bar nav a:first-of-type {
-    margin-top: 155px;
+    margin-top: 125px;
   }
 }
