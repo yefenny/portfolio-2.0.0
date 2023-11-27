@@ -68,6 +68,84 @@ h6 {
     font-weight: 400;
     font-style: normal;
   }
+  section header nav {
+    display: none;
+  }
+
+  section.home {
+    background-color: #f2efec;
+    height: 100%;
+    text-align: center;
+  }
+
+  section header .close-bar {
+    position: absolute;
+    width: 41px;
+    height: 41px;
+    background-image: url(./mobile-menu.svg);
+    background-repeat: no-repeat;
+    right: 24px;
+    top: 42px;
+  }
+
+  section.home h1 {
+    font-family: 'gimlet-display', serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 27px;
+    width: 60%;
+    margin: auto;
+    padding-top: 165px;
+  }
+
+  section.home h1 span {
+    opacity: 0.5;
+  }
+
+  section.home img {
+    width: 80%;
+    margin: auto;
+    margin-top: 27px;
+  }
+
+  section.home p {
+    font-family: 'gimlet-display', serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 17px;
+    margin: auto;
+    margin-top: 18px;
+    margin-bottom: 27px;
+  }
+
+  section.home .non-bar {
+    padding-bottom: 190px;
+  }
+  section.home .non-bar a {
+    text-decoration: none;
+    font-family: 'chaparral-pro-caption', serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 12px;
+    margin: auto;
+    margin-top: 27px;
+  }
+
+  section.home .non-bar .contact-button {
+    background-color: #e0bddc;
+    padding: 8px 7px;
+    color: #fcfbfa;
+  }
+
+  section.home .non-bar .see-more-button {
+    background-color: #f2efec;
+    color: #6f6c74;
+    border: 3px solid #6f6c74;
+    padding: 5px 13px;
+    margin-left: 11px;
+  }
+
+  /* Mobile Active navbar */
   .show-bar {
     background-color: #e0bddc;
     height: 100%;
@@ -76,6 +154,7 @@ h6 {
     background-repeat: no-repeat;
     background-size: 296px 265px;
     background-position: bottom 58px right;
+    text-align: left;
   }
 
   .show-bar .close-bar {
