@@ -148,7 +148,7 @@ h6 {
   /* Mobile Active navbar */
   .show-bar {
     background-color: #e0bddc;
-    height: 100%;
+    height:100vh;
     padding-bottom: 372px;
     background-image: url(./header-illustration.svg);
     background-repeat: no-repeat;
@@ -183,4 +183,28 @@ h6 {
   .show-bar nav a:first-of-type {
     margin-top: 125px;
   }
+}
+@media screen and (min-width: 600px) {
+    section.home img {
+        width: 65%;
+        margin: auto;
+        margin-top: 27px;
+      }
+    /* active menu bar */
+    .show-bar nav a {
+        color: #ffffff;
+        font-size: 33px;
+        margin-top: 55px;
+        font-weight: 500;
+    }
+    .show-bar nav a:first-of-type {
+        margin-top: 185px;
+    }
+    .show-bar {
+
+        background-image: url(./header-illustration.svg);
+        background-repeat: no-repeat;
+        background-size: 396px 395px;
+        background-position: bottom 58px right;
+      }
 }
