@@ -148,7 +148,7 @@ h6 {
   /* Mobile Active navbar */
   .show-bar {
     background-color: #e0bddc;
-    height:100vh;
+    height:100%;
     padding-bottom: 372px;
     background-image: url(./header-illustration.svg);
     background-repeat: no-repeat;
@@ -184,6 +184,7 @@ h6 {
     margin-top: 125px;
   }
 }
+/* medium screen */
 @media screen and (min-width: 600px) {
     section.home img {
         width: 65%;
@@ -208,3 +209,11 @@ h6 {
         background-position: bottom 58px right;
       }
 }
+ /* smallest ipad screen */
+ @media screen and (min-width: 768px) {
+
+    .non-bar {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+ }
