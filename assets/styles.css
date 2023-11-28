@@ -149,11 +149,11 @@ h6 {
   .show-bar {
     background-color: #e0bddc;
     height:100%;
-    padding-bottom: 572px;
+    padding-bottom: 272px;
     background-image: url(./header-illustration.svg);
     background-repeat: no-repeat;
-    background-size: 296px 265px;
-    background-position: bottom 58px right;
+    background-size: 40%;
+    background-position: bottom 68px right 10px;
     text-align: left;
   }
 
@@ -176,7 +176,7 @@ h6 {
   .show-bar nav a {
     color: #ffffff;
     font-size: 27px;
-    margin-top: 55px;
+    margin-top: 35px;
     font-weight: 500;
   }
 
