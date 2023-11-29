@@ -208,6 +208,12 @@ body {
     color: #6f6c74;
     font-weight: 500;
     margin-right: 40px;
+    transition: font-size 0.8s;
+  }
+
+  section header nav a:hover {
+    color: #333136;
+    font-size: 28px;
   }
 
   .non-bar {
@@ -405,7 +411,7 @@ body {
         margin-top: -30px;
         margin-left: -80px;
     }
-    
+
     section.home .non-bar a {
         font-size: 28px;
         margin-top: 190px;
