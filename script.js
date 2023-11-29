@@ -22,15 +22,3 @@ function closeBar() {
     }
   }
 }
-//  function checkScreen(){
-//   if (window.screen.width >= 600) {
-//     var element = document.getElementById('nav-bar');
-//     let ishidden = element.getAttribute('hidden');
-
-//     if (ishidden) {
-//       element.removeAttribute('hidden');
-//     }
-
-//   } }
-
-//   checkScreen();
