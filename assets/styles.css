@@ -247,7 +247,7 @@ body {
 
   section.home .non-bar a {
     margin-top: 60px;
-    font-size: 12px;
+    font-size: 13px;
   }
 
   section.home .non-bar a.contact-button {
@@ -261,4 +261,61 @@ body {
     grid-row: 3/4;
     margin-left: 55px;
   }
+}
+
+@media screen and (min-width: 700px) {
+    section header nav {
+        display: flex;
+        margin-left: 10%;
+        margin-right: 10%;
+        padding-top: 30px;
+      }
+      .non-bar {
+        padding-left: 10%;
+        padding-right: 10%;
+      }
+      section.home .non-bar a {
+        font-size: 16px;
+      }
+}
+
+@media screen and (min-width: 820px){
+    section.home .non-bar a {
+        font-size: 18px;
+      }
+
+      section.home h1 {
+        font-size: 44px;
+      }
+      section.home p {
+        font-size: 20px;
+      }
+      section.home img {
+      height: 100%;
+      width: 100%;
+      margin-top: 0;
+      }
+
+}
+
+@media screen and (min-width: 1000px) {
+    section header nav {
+        display: flex;
+        margin-left: 20%;
+        margin-right: 20%;
+        padding-top: 30px;
+      }
+      .non-bar {
+        padding-left: 20%;
+        padding-right: 20%;
+      }
+      section.home .non-bar a {
+        font-size: 16px;
+      }
+      section.home img {
+        height: 100%;
+        width: 100%;
+        margin-top: -30px;
+        }
+    
 }
